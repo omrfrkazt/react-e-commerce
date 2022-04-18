@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { Cart, Dashboard, Login, Profile } from './pages'
 function App() {
-  return (r
+  return (
       <BrowserRouter>
         <Routes>
           <Route index element={<Dashboard />} />
@@ -13,7 +13,6 @@ function App() {
           <Route path="*" element={<p>There's nothing here: 404!</p>} />
         </Routes>
       </BrowserRouter>
-    </>
   );
 }
 
