@@ -5,10 +5,10 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route index element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="cart" element={<Cart />} />
-          <Route path="login" element={<Login />} />
+          <Route index element={<Login />} />
           <Route path="profile" element={<Profile />} />
           <Route path="*" element={<p>There's nothing here: 404!</p>} />
         </Routes>
