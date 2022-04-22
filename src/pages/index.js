@@ -1,6 +1,6 @@
 import Cart from './Cart';
 import Dashboard from './Dashboard';
-import Login from './Login';
+import Login from './Login/Login';
 import Profile from './Profile';
 
 

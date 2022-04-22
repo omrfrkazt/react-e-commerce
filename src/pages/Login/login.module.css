@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.top{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #dededb;
+ letter-spacing: 1px;
+ flex-basis: 50%;
+ background-color: #1d1c1c;
+}
+
+.down{
+    background-color: #dededb;
+    border-top: 2px none #d4c8b1;
+    box-shadow: 0px 0px 10px #d4c8b1;
+    flex-basis: 50%;
+}
